@@ -6,27 +6,33 @@ import bank from "../../assets/bank2.png";
 
 const projectData = [
   {
-    key: 1,
+    stack: ["TypeScript", "NestJS", "React", "Tailwind", "PostgreSQL"],
     imageSrc: coreforce,
     title: "CoreForce Fitness",
+    /*  description:
+      "A gym application designed to make a significant impact on the fitness industry. It allows users to interact with trainers in real-time via chat, purchase memberships, access an integrated chatbot, and view workout routines.", */
     description:
-      "Una aplicación innovadora que simplifica la programación de citas bancarias, asegurando una experiencia de usuario fluida de principio a fin.",
+      "A gym application designed to make a significant impact on the fitness industry. It allows users to interact with trainers in real-time via chat, purchase memberships, access an integrated chatbot.",
     link: "https://github.com/FabrizioZeballos/Bank-Application",
   },
   {
-    key: 2,
+    stack: ["TypeScript", "NestJS", "PostgreSQL"],
     imageSrc: back,
     title: "Ecommerce Backend",
+    /* description:
+      "An application designed to efficiently manage products, user accounts, and purchase orders for an ecommerce platform, supported by a robust backend. Known for its modular and scalable architecture, the application is built on a RESTful API that enables seamless integration with other systems, ensuring an optimal user experience.", */
     description:
-      "Una aplicación que revoluciona la industria del fitness con un chat en tiempo real con entrenadores, pagos integrados, rutinas de ejercicio de expertos y un chatbot con IA.",
+      "An application designed to efficiently manage products, user accounts, and purchase orders for an ecommerce platform, supported by a robust backend. Known for its modular and scalable architecture",
     link: "https://front-core-force.vercel.app/",
   },
   {
-    key: 3,
+    stack: ["TypeScript", "Express", "React", "Redux", "PostgreSQL"],
     imageSrc: bank,
-    title: "Bank App",
+    title: "HHBC Bank",
+    /* description:
+      "An appointment scheduling app for a bank aiming to enhance customer service and provide a more convenient, accessible experience. Users can register, log in, schedule, and cancel appointments seamlessly and intuitively.", */
     description:
-      "Una aplicación de gestión de ecommerce con un backend escalable y una integración fluida, asegurando una experiencia de usuario óptima.",
+      "An appointment scheduling app for a bank aiming to enhance customer service and provide a more convenient, accessible experience. Users can register, log in, schedule, and cancel ",
     link: "https://github.com/FabrizioZeballos/Ecommerce-Backend",
   },
 ];
@@ -34,10 +40,16 @@ const projectData = [
 export const Projects = () => {
   return (
     <div className={styles.projects}>
-      <h2 className={styles.title}>Featured Projects</h2>
+      <h2 className={styles.title}>Personal Projects</h2>
       <div className={styles["projects-container"]}>
-        {projectData.map((project) => (
-          <ProjectCard key={project.key} imageSrc={project.imageSrc} />
+        {projectData.map((project, index) => (
+          <ProjectCard
+            key={index}
+            stack={project.stack}
+            imageSrc={project.imageSrc}
+            title={project.title}
+            description={project.description}
+          />
         ))}
       </div>
     </div>

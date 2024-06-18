@@ -1,9 +1,15 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import { Portfolio } from "./views/Portfolio/Portfolio";
+import { About } from "./views/About/About";
 
 function App() {
   return (
     <>
-      <h1>Fabrizio Zeballos</h1>
+      <Routes>
+        <Route path="/" element={<Portfolio />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </>
   );
 }

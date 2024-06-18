@@ -10,7 +10,7 @@ export const Portfolio = () => {
       <Hero />
       <Introduction />
       <Projects />
-      <Contact />
+      {/*   <Contact /> */}
     </div>
   );
 };

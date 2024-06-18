@@ -33,6 +33,10 @@
   margin: 20px 0;
 }
 
+.bottom p {
+  margin-bottom: 40px;
+}
+
 .stack-container {
   display: flex;
 }

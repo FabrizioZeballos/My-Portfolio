@@ -1,6 +1,7 @@
 .projects {
   /* border: 1px solid rgb(35, 62, 210); */
   width: 60%;
+  margin-bottom: 160px;
 }
 
 .title {
@@ -8,7 +9,8 @@
   text-align: center;
   font-size: 54px;
   font-weight: 600;
-  word-spacing: -0.1rem;
+  letter-spacing: -0.2rem;
+  word-spacing: 0.05rem;
 }
 
 .projects-container {

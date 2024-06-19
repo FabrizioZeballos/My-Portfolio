@@ -25,9 +25,6 @@ export const Introduction = () => {
             meaningful impact.
           </p>
           <div className={styles["tech-stack"]}></div>
-          <a href="" className={styles["learn-more"]}>
-            Learn more about me
-          </a>
         </div>
       </div>
     </div>

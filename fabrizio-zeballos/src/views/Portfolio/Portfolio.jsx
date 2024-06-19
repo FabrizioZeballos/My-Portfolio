@@ -1,4 +1,5 @@
 import { Contact } from "../../components/Contact/Contact";
+import { Footer } from "../../components/Footer/Footer";
 import { Hero } from "../../components/Hero/Hero";
 import { Introduction } from "../../components/Introduction/Introduction";
 import { Projects } from "../../components/Projects/Projects";
@@ -11,6 +12,7 @@ export const Portfolio = () => {
       <Introduction />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 };

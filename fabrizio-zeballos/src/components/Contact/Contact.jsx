@@ -14,8 +14,6 @@ export const Contact = () => {
       </h2>
       <div>
         <form onSubmit={handleSubmit} className={styles.form}>
-          {/*  <label htmlFor="email">Email Address</label> */}
-
           <input
             id="email"
             type="email"

@@ -7,7 +7,7 @@ export const Hero = () => {
         Unleashing your brand&apos;s potential through quality{" "}
         <span className={styles.code}>code</span>.
       </h1>
-      <a href="" className={styles["projects-btn"]}>
+      <a href="#projects" className={styles["projects-btn"]}>
         View my projects
       </a>
     </div>

@@ -8,7 +8,7 @@ export const Contact = () => {
     return <p>Thanks for joining!</p>;
   }
   return (
-    <div className={styles["form-container"]}>
+    <div className={styles["form-container"]} id="contact">
       <h2 className={styles.title}>
         Let&apos;s <span>connect</span>.
       </h2>

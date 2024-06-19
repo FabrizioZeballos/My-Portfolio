@@ -4,7 +4,7 @@ import { StackCard } from "../StackCard/StackCard";
 
 export const Introduction = () => {
   return (
-    <div className={styles.introduction}>
+    <div className={styles.introduction} id="about">
       <h2 className={styles["profile-title"]}>Behind the code</h2>
       <div className={styles["profile-container"]}>
         <div className={styles["left"]}>

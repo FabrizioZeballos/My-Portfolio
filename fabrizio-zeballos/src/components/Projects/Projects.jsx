@@ -6,40 +6,37 @@ import bank from "../../assets/bank2.png";
 
 const projectData = [
   {
-    stack: ["TypeScript", "NestJS", "React", "Tailwind", "PostgreSQL"],
+    stack: ["NestJS", "React", "Tailwind", "PostgreSQL", "TypeScript"],
     imageSrc: coreforce,
     title: "CoreForce Fitness",
-    /*  description:
-      "A gym application designed to make a significant impact on the fitness industry. It allows users to interact with trainers in real-time via chat, purchase memberships, access an integrated chatbot, and view workout routines.", */
     description:
-      "A gym application designed to make a significant impact on the fitness industry. It allows users to interact with trainers in real-time via chat, purchase memberships, access an integrated chatbot.",
-    link: "https://github.com/FabrizioZeballos/Bank-Application",
+      "A gym application designed to make a significant impact on the fitness industry. Users can interact with trainers in real-time via chat, purchase memberships, and access an AI-powered chatbot for assistance.",
+    link: "https://front-core-force.vercel.app/",
+    github: "https://github.com/AgustinNBertagna/core-force-fitness",
   },
   {
-    stack: ["TypeScript", "NestJS", "PostgreSQL"],
+    stack: ["NestJS", "PostgreSQL", "TypeScript"],
     imageSrc: back,
     title: "Ecommerce Backend",
-    /* description:
-      "An application designed to efficiently manage products, user accounts, and purchase orders for an ecommerce platform, supported by a robust backend. Known for its modular and scalable architecture, the application is built on a RESTful API that enables seamless integration with other systems, ensuring an optimal user experience.", */
     description:
-      "An application designed to efficiently manage products, user accounts, and purchase orders for an ecommerce platform, supported by a robust backend. Known for its modular and scalable architecture",
+      "An ecommerce app designed to manage products, user accounts, and purchase orders with a robust backend. Built on a RESTful API, it integrates seamlessly with other systems for an optimal user experience.",
     link: "https://front-core-force.vercel.app/",
+    github: "https://github.com/FabrizioZeballos/Ecommerce-Backend",
   },
   {
-    stack: ["TypeScript", "Express", "React", "Redux", "PostgreSQL"],
+    stack: ["Express", "React", "Redux", "PostgreSQL", "TypeScript"],
     imageSrc: bank,
     title: "HHBC Bank",
-    /* description:
-      "An appointment scheduling app for a bank aiming to enhance customer service and provide a more convenient, accessible experience. Users can register, log in, schedule, and cancel appointments seamlessly and intuitively.", */
     description:
-      "An appointment scheduling app for a bank aiming to enhance customer service and provide a more convenient, accessible experience. Users can register, log in, schedule, and cancel ",
+      "An appointment scheduling app for a bank aiming to enhance customer service. Users can register, log in, schedule, and cancel appointments seamlessly and intuitively.",
     link: "https://github.com/FabrizioZeballos/Ecommerce-Backend",
+    github: "https://github.com/FabrizioZeballos/Bank-Application",
   },
 ];
 
 export const Projects = () => {
   return (
-    <div className={styles.projects}>
+    <div id="projects" className={styles.projects}>
       <h2 className={styles.title}>Personal Projects</h2>
       <div className={styles["projects-container"]}>
         {projectData.map((project, index) => (
@@ -49,6 +46,8 @@ export const Projects = () => {
             imageSrc={project.imageSrc}
             title={project.title}
             description={project.description}
+            link={project.link}
+            github={project.github}
           />
         ))}
       </div>

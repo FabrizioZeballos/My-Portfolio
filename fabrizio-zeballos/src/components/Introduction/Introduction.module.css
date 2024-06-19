@@ -25,26 +25,38 @@
   overflow: hidden;
 }
 
-.right {
-  /* border: 1px solid blue; */
-  width: 48%;
-  font-size: 18px;
-  line-height: 1.8rem;
-}
-
-/* .right p {
-  margin-bottom: 20px;
-} */
-
 .img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.learn-more {
-  display: inline-block;
+.right {
+  /* border: 1px solid blue; */
+  width: 48%;
+  font-size: 18px;
+  line-height: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right p {
+  color: #f3f3f3;
+}
+
+.right h4 {
   margin-top: 20px;
-  font-size: 24px;
-  text-decoration: none;
+}
+
+/* .right p {
+  margin-bottom: 20px;
+} */
+
+.tech-stack {
+  width: 90%;
+  /*  border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

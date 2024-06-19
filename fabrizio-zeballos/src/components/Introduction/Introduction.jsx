@@ -1,5 +1,6 @@
 import styles from "./Introduction.module.css";
 import pfp from "../../assets/portfolio-img.png";
+import { StackCard } from "../StackCard/StackCard";
 
 export const Introduction = () => {
   return (
@@ -24,7 +25,19 @@ export const Introduction = () => {
             leverage my technical expertise and legal knowledge to make a
             meaningful impact.
           </p>
-          <div className={styles["tech-stack"]}></div>
+          <h4>Tech Stack</h4>
+          <div className={styles["tech-stack"]}>
+            <StackCard iconName={"js"} />
+            <StackCard iconName={"ts"} />
+            <StackCard iconName={"nest"} />
+            <StackCard iconName={"express"} />
+            <StackCard iconName={"node"} />
+            <StackCard iconName={"postgres"} />
+            <StackCard iconName={"mongodb"} />
+            <StackCard iconName={"react"} />
+            <StackCard iconName={"redux"} />
+            <StackCard iconName={"docker"} />
+          </div>
         </div>
       </div>
     </div>

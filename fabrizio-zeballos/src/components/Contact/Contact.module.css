@@ -56,3 +56,21 @@
   font-weight: 600;
   color: #111827;
 }
+
+.after-msg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 400px 0;
+}
+
+.after-message {
+  width: 66%;
+  text-align: center;
+}
+
+.check-icon {
+  color: rgb(55, 200, 152);
+  font-size: 40px;
+}

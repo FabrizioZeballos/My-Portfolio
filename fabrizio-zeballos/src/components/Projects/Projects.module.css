@@ -19,3 +19,21 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+@media (min-width: 1240px) and (max-width: 1840px) {
+  .projects {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects {
+    width: 100%;
+    padding-top: 60px;
+  }
+
+  .title {
+    margin-bottom: 24px;
+    font-size: 32px;
+  }
+}

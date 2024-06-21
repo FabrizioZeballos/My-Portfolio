@@ -27,11 +27,12 @@ export const ProjectCard = ({
         </div>
         <h3>{title}</h3>
         <p>{description}</p>
-        {title !== "Ecommerce Backend" ? (
-          <PrimaryButton text={text} link={link} title={title} />
-        ) : null}
-
-        <SecondaryButton text2={text2} github={github} />
+        <div>
+          {title !== "Ecommerce Backend" ? (
+            <PrimaryButton text={text} link={link} title={title} />
+          ) : null}
+          <SecondaryButton text2={text2} github={github} />
+        </div>
       </div>
     </div>
   );

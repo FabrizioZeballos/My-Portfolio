@@ -74,3 +74,19 @@
   color: rgb(55, 200, 152);
   font-size: 40px;
 }
+
+@media (min-width: 1240px) and (max-width: 1840px) {
+  .form-container {
+    width: 36%;
+  }
+}
+
+@media (max-width: 767px) {
+  .form-container {
+    width: 90%;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+}

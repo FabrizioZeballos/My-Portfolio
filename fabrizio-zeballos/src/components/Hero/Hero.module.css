@@ -1,8 +1,7 @@
 .hero {
   /*  border: 1px solid rgb(47, 255, 224); */
   margin: 120px 0 80px 0;
-
-  width: 52%;
+  width: 990px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +34,33 @@
 
 .projects-btn:hover {
   transform: scale(1.1);
+}
+
+@media (min-width: 1240px) and (max-width: 1840px) {
+  .hero {
+    /*   width: 70%;  */ /* Adjust width for larger screens */
+    /*  background-color: red; */
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    margin: 60px 0 80px 0;
+    width: 90%;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .projects-btn {
+    padding: 14px 32px;
+    border-radius: 0.25rem;
+    background-color: rgb(68 184 255 / 85%);
+    color: #111827;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+  }
 }

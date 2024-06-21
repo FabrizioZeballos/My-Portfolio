@@ -6,7 +6,7 @@ import bank from "../../assets/bank2.png";
 
 const projectData = [
   {
-    stack: ["NestJS", "React", "Tailwind", "PostgreSQL", "TypeScript"],
+    stack: ["NestJS", "React", "Tailwind", "PostgreSQL"],
     imageSrc: coreforce,
     title: "CoreForce Fitness",
     description:
@@ -15,7 +15,7 @@ const projectData = [
     github: "https://github.com/AgustinNBertagna/core-force-fitness",
   },
   {
-    stack: ["NestJS", "PostgreSQL", "TypeScript"],
+    stack: ["NestJS", "PostgreSQL"],
     imageSrc: back,
     title: "Ecommerce Backend",
     description:
@@ -24,7 +24,7 @@ const projectData = [
     github: "https://github.com/FabrizioZeballos/Ecommerce-Backend",
   },
   {
-    stack: ["Express", "React", "Redux", "PostgreSQL", "TypeScript"],
+    stack: ["Express", "React", "Redux", "PostgreSQL"],
     imageSrc: bank,
     title: "HHBC Bank",
     description:

@@ -6,7 +6,7 @@
 }
 
 .up-button {
-  background-color: rgba(9, 185, 244, 0.829);
+  background-color: rgb(15, 164, 214);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,4 +17,11 @@
   height: 40px;
   border-radius: 50%;
   transition: 2s;
+}
+
+@media (max-width: 767px) {
+  .up-button {
+    bottom: 16px;
+    right: 16px;
+  }
 }

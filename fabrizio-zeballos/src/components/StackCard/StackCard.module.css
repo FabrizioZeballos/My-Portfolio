@@ -19,3 +19,9 @@
     margin-top: 11px;
   }
 }
+
+@media (min-width: 767px) and (max-width: 1240px) {
+  .card {
+    margin-top: 8px;
+  }
+}

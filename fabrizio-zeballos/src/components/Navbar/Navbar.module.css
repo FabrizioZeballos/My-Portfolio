@@ -41,3 +41,10 @@
 .about {
   background-color: #1f2937;
 }
+
+@media (max-width: 767px) {
+  .navbar {
+    margin: 20px auto;
+    padding: 16px 10px;
+  }
+}

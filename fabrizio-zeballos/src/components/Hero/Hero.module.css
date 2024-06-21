@@ -44,9 +44,29 @@
   }
 }
 
+@media (min-width: 767px) and (max-width: 1240px) {
+  .hero {
+    margin: 120px 0 120px 0;
+    width: 90%;
+  }
+
+  .title {
+    font-size: 46px;
+  }
+
+  .projects-btn {
+    padding: 14px 32px;
+    border-radius: 0.25rem;
+    background-color: rgb(68 184 255 / 85%);
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
 @media (max-width: 767px) {
   .hero {
-    margin: 60px 0 80px 0;
+    margin: 120px 0 120px 0;
     width: 90%;
   }
 
@@ -56,11 +76,6 @@
 
   .projects-btn {
     padding: 14px 32px;
-    border-radius: 0.25rem;
-    background-color: rgb(68 184 255 / 85%);
-    color: #111827;
     font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
   }
 }

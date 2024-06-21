@@ -81,9 +81,16 @@
   }
 }
 
+@media (min-width: 767px) and (max-width: 1240px) {
+  .form-container {
+    width: 46%;
+  }
+}
+
 @media (max-width: 767px) {
   .form-container {
     width: 90%;
+    padding-top: 120px;
   }
 
   .title {

@@ -26,6 +26,12 @@
   }
 }
 
+@media (min-width: 767px) and (max-width: 1240px) {
+  .title {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 767px) {
   .projects {
     width: 100%;
@@ -33,7 +39,7 @@
   }
 
   .title {
-    margin-bottom: 24px;
+    margin-bottom: 0;
     font-size: 32px;
   }
 }

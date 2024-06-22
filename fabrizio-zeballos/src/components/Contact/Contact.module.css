@@ -71,7 +71,6 @@
 }
 
 .check-icon {
-  color: rgb(55, 200, 152);
   font-size: 40px;
 }
 
@@ -95,5 +94,22 @@
 
   .title {
     font-size: 32px;
+  }
+
+  .after-msg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0;
+  }
+
+  .after-message {
+    width: 90%;
+    text-align: center;
+  }
+
+  .check-icon {
+    font-size: 40px;
   }
 }

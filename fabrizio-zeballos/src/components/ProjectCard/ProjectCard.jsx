@@ -11,7 +11,7 @@ export const ProjectCard = ({
   link,
   github,
 }) => {
-  const text = "Visit Website";
+  const text = "Visit website";
   const text2 = "Github";
 
   return (

@@ -22,6 +22,14 @@
 
 @media (min-width: 767px) and (max-width: 1240px) {
   .card {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1240px) {
+  .card {
     margin-top: 8px;
   }
 }
